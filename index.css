@@ -1,0 +1,371 @@
+/**
+font-family: 'Parisienne', cursive;
+font-family: 'Raleway', sans-serif; 
+font-family: 'Rochester', cursive;
+font-family: 'Great Vibes', cursive;
+
+Colour Pallete
+Yellow
+Blue #b1dce2
+Light Purple #DCD6F4
+Dark Purple #4F426D
+Pink
+**/
+
+.bg{ 
+    position: fixed;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color:rgba(79, 66, 109, 0.6);
+    width: 85%;
+    height: 85%;
+}
+.bg2{
+    position: absolute;
+    margin: auto;
+/*    margin-top: 2%;*/
+    margin-bottom:2%;
+    top: 17%;
+    left: 0px;
+    right: 0px;
+    background-color:rgba(79, 66, 109, 0.6);
+    width: 85%;
+    height: auto;
+    padding: 3%; 
+}
+body{
+    background-color: #010101;
+    background-image:url(imgs/pexels-photo-355887.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.buttons{
+    font-size: 45%;
+    border-radius: 12px;
+    background-color: #DCD6F4;
+    color: #4F426D;  
+    height: 60px;
+}
+
+#display{
+    background-color:#010101;
+    position: fixed;
+    height: 60vh;
+    width: 100vw;
+    background-image:url(imgs/pexels-photo-355887.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#compResults{
+    position: absolute;
+    left: 29%;
+    bottom: 17%;
+    background-color: #b1dce2;
+    color: #4F426D;
+    font-family: 'Raleway', sans-serif;
+    padding:2%;
+    font-size:20px;
+    width: 40vw;
+    text-align: center;
+    
+}
+.choose{
+    background-color:#b1dce2;
+    width: 36%;
+    height: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    padding: 4%;
+    position: relative;
+    font-size: 25px;
+    font-size: 3.5vw;
+    text-align: center;
+    border-radius: 12px;
+    color: #4F426D;
+    font-family: 'Raleway', sans-serif; 
+    display: inline-flex;
+    bottom: 200px;
+    margin-top: 2vw;
+}
+
+#choose1{  
+    margin-top: 5%;
+}
+
+#choose2{
+    float: 10%;
+    
+}
+#choose3{
+    float: right;
+    width: 25%;
+    margin-top: 4%;
+    margin-right: 10%;
+}
+#chooseOne{
+    position: relative;
+    font-family: 'Parisienne', cursive;
+    color: #FCF19F;
+    font-size:4vw;
+    text-align: center;
+    margin-top:15vw;
+    margin-bottom:2px;
+    
+}
+
+label {
+    color: rgba(79, 66, 109, 1);
+    margin-top: 5%;
+    margin-right: 34%;
+}
+
+.date {
+    height: 5vh;
+    background-color: #DCD6F4;  
+    font-size: 6vw;
+    font-family: 'Great Vibes', cursive;
+    color: rgba(79, 66, 109, 1);
+    float: right;
+    margin: 2%;
+    text-align: center;
+}
+
+.date:hover {
+    color: rgba(79, 66, 109, 1);
+}
+
+.form{
+    position: relative;
+    font-size: 0.7em;
+    font-family: 'Great Vibes', cursive;
+    width: 70%;
+    height: auto;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: #DCD6F4;
+    border-bottom: 1px solid #DCD6F4;
+}
+
+#day {
+    width: 5vw;
+    height: 7vh;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    font-size: 0.5em;
+    display: inline-block;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin:auto;
+    margin-top: 43%;
+    margin-left: 55%;
+}
+
+#month {
+    width: 25vw;
+    height: 7vh;
+    border-radius: 25px;
+    text-align: center;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin:auto;
+    position: absolute;
+    margin-top: 43%;
+    margin-right: 5%;
+    font-size: 0.4em;
+}
+
+#hello{
+    position: fixed;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color:rgba(222, 241, 149, 0.6);
+    width: 65%;
+    height: 55%;
+    font-family: 'Rochester', cursive;
+    color: #4F426D;
+    text-align: center;
+    font-size: 460%;
+    padding: 3%;
+}
+
+input::placeholder {
+  color: #DCD6F4;
+}
+
+#land{
+   
+    font-family: 'Rochester', cursive;
+    color: #4F426D;
+    text-align: center;
+    font-size: 460%;
+}
+#logoNav{
+    position: relative;
+    left: 4%;
+    margin-right: 10%;
+/*    margin-top: 2%;*/
+/*    margin-bottom: */
+    width: 170px;
+}
+#logoYellowHome{
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin-top: 8%;
+}
+
+#nameInp {
+    margin-bottom: -50%;
+}
+
+#navBar{
+    height: auto;
+    position:relative;
+    left: 0px;
+    right: 0px;
+    background-color:rgba(79, 66, 109, 0.6);
+    padding: 1%;
+}
+#userName{
+    font-family: 'Parisienne', cursive;
+    color: #FCF19F;
+    font-size:6vw;
+    width: 600px;
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+#randContainer{
+    position: absolute;
+    right:40px;
+    width: 165px;
+    height: 125px;
+    background-color: red;
+    
+}
+#random{
+    position: absolute;
+    right:40px;
+    top:165px;
+    font-family: 'Rochester', cursive;
+    width: 20vw;
+    font-size: 4.5vh;
+ 
+}
+
+
+/*have to make the fonts thinner to match the style guide*/
+#start{
+    position: relative;    
+
+    
+}
+#submit{
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    margin-bottom: 5%;
+    position: absolute;
+}
+/*submit 2 is the button on the combatibility page*/
+#submit2{
+    position: fixed;
+    top: 50%;
+    margin-top:2%;
+    margin-left:2%;
+    margin-right:2%;
+    width: 81.5vw;
+    font-family: 'Rochester', cursive;
+    font-size:6vh;
+
+}
+#start,#submit{
+    width: 180px;
+    font-family: 'Rochester', cursive;
+    color: #4F426D;  
+}
+
+/*To display their zodiac sign icon*/
+#displayDiv {
+    width: 45%;
+    height: 30%;
+/*    background-color: rgba(220, 214, 244, 0.7);*/
+    margin-left: 7vw;
+    margin-top:-5vw;
+    margin-bottom: 5%;
+/*    border-radius: 15px;*/
+    text-align: center;
+    float: left;
+    position: absolute;
+    display: none;
+}
+
+#zodiacSign {
+    margin: auto;
+    margin-top: 5%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    width: 70%;
+    display: inline-block;
+}
+
+.tabs{
+    text-decoration: none;
+    position: relative;
+    top: -25px;
+    left: 5%;
+    margin-right:4%;
+    font-size: 90%;
+    width: 10%;
+    background: transparent;
+    color:yellow;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    border-bottom: 1px solid transparent;
+    color: #ffe8f8;
+}
+
+.tabs .active{
+    border-bottom: green;
+}
+
+/*Compatibility page*/
+#yourSign{
+    position: absolute;
+    left: 40px;
+    width: 165px;
+    height: 125px;
+    background-color: blue;
+    
+}
+
+.zodiacIcon{    
+    height: 100px;
+    width: auto;
+}
+
+/**jimenas work**/
+
+
